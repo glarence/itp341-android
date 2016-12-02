@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">A1</string>
+    <string name="question">Do you want coffee or tea?</string>
+    <string name="coffee">Coffee</string>
+    <string name="tea">Tea</string>
+    <string name="coffeeOrder">You ordered a mocha! (%1$d times)</string>
+    <string name="teaOrder">You ordered a chai! (%1$d times)</string>
+</resources>

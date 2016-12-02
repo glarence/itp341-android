@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">A4</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="billLabel">Bill Amount</string>
+    <string name="percentLabel">Percent</string>
+    <string name="tipLabel">Tip</string>
+    <string name="totalLabel">Total</string>
+    <string name="splitLabel">Split Bill?</string>
+    <string name="personLabel">Per Person</string>
+
+    <string-array name="splitValues">
+        <item>No</item>
+        <item>2 Ways</item>
+        <item>3 Ways</item>
+        <item>4 Ways</item>
+    </string-array>
+</resources>

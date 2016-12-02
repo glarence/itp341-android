@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">A6</string>
+
+    <!--Main Activity Strings-->
+
+    <string name="room1Button">Room 1</string>
+    <string name="room2Button">Room 2</string>
+    <string name="room3Button">Room 3</string>
+    <string name="room4Button">Room 4</string>
+    <string name="solveButton">Solve</string>
+    <string name="cheatButton">Cheat</string>
+
+    <string name="solveTextView">Solve the Puzzle</string>
+
+    <string name="puzzleColor">I\'m feeling</string>
+    <string name="desirePuzzle">I want to be</string>
+    <string name="namePuzzle">You can call me</string>
+    <string name="schoolPuzzle">Who runs LA\?</string>
+
+    <!--Room 1 Strings-->
+
+    <string name="changesButton">Set Changes</string>
+    <string name="RString">R:</string>
+    <string name="GString">G:</string>
+    <string name="BString">B:</string>
+    <string name="previewTitle">Preview:</string>
+
+    <string-array name="colorValues">
+        <item>blue</item>
+        <item>black</item>
+        <item>cardinal</item>
+        <item>gold</item>
+    </string-array>
+
+    <!--Room 2 Strings-->
+
+    <string-array name="sizeValues">
+        <item>small</item>
+        <item>medium</item>
+        <item>big</item>
+    </string-array>
+
+    <string name="sizeString">Size:</string>
+
+    <!--Room 3 Strings-->
+    
+    <string name="nameTitle">What is my name?</string>
+
+    <string-array name="nameValues">
+        <item>Al</item>
+        <item>Glarence</item>
+        <item>Peter</item>
+        <item>Parke</item>
+    </string-array>
+
+    <!--Room 4 Strings-->
+    
+    <string name="schoolQuestion">UCLA or USC?</string>
+    <string name="USC">USC</string>
+    <string name="UCLA">UCLA</string>
+    <string name="hintButton">Hint!</string>
+    <string name="hintString">Bruins suck!</string>
+    <string name="submitButton">Submit</string>
+
+    <!--Result Strings-->
+
+    <string name="winString">You WIN!</string>
+    <string name="loseString">Try Again.</string>
+
+</resources>

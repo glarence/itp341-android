@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Favourite Food</string>
+    <string name="americanCuisine">American</string>
+    <string name="chineseCuisine">Chinese</string>
+    <string name="indianCuisine">Indian</string>
+    <string name="italianCuisine">Italian</string>
+    <string name="middleEastCuisine">Middle East</string>
+    <string name="portugueseCuisine">Portuguese</string>
+    <string name="american_url">http://www.your-daily-income.com/ibotoolbox/PRimages/steak.png</string>
+    <string name="chinese_url">http://www.dimsumgardenphilly.com/wp-content/uploads/2014/01/Dimsumgarden-DInnerMenu2013-2_03-570x340.png</string>
+    <string name="indian_url">http://www.amummytoo.co.uk/wp-content/uploads/2013/11/My-Golden-Pear.png</string>
+    <string name="italian_url">http://midlifexpress.com/wp-content/uploads/2013/07/pasta.png</string>
+    <string name="middle_east_url">http://www.panamericanworld.com/sites/default/files/styles/node-main-pic_normal/public/brazil_1.png</string>
+    <string name="portuguese_url">http://www.portugal.net/files/imagecache/article-picture/images/portuguese_cuisine.jpg</string>
+</resources>

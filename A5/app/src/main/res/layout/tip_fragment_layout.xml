@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/billLabel"
+            android:id="@+id/billLabel"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginEnd="16dp"/>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/billInput"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/percentLabel"
+            android:id="@+id/percentLabel"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginEnd="16dp"
+            android:layout_gravity="center_vertical"
+            android:paddingRight="38dp"/>
+
+        <TextView
+            android:id="@+id/percentAmount"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_gravity="center_vertical"/>
+
+        <SeekBar
+            android:id="@+id/percentSlider"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:max="30"
+            android:progress="0"
+            android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tipLabel"
+            android:id="@+id/tipLabel"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:paddingRight="80dp"
+            android:layout_marginEnd="16dp"
+            android:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tipDisplay"
+            android:textSize="20sp"
+            android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/totalLabel"
+            android:id="@+id/totalLabel"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:paddingRight="65dp"
+            android:layout_marginEnd="16dp"
+            android:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/totalDisplay"
+            android:textSize="20sp"
+            android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginBottom="8dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/splitLabel"
+            android:id="@+id/splitLabel"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:paddingRight="18dp"
+            android:layout_marginEnd="16dp"
+            android:layout_gravity="center_vertical"/>
+
+        <Spinner
+            android:id="@+id/billSplit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/splitValues"
+            android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/personLabel"
+            android:id="@+id/perPersonLabel"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:paddingRight="11dp"
+            android:layout_marginEnd="16dp"
+            android:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/perPersonDisplay"
+            android:textSize="20sp"
+            android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+
+</LinearLayout>

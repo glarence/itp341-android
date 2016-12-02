@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">A5</string>
+    <string name="tipCalc_name">Tip Calc</string>
+    <string name="unitConv_name">Unit Conv</string>
+    <string name="moneyExch_name">Money Exch</string>
+
+    <!--tipFragment Strings-->
+    <string name="billLabel">Bill Amount</string>
+    <string name="percentLabel">Percent</string>
+    <string name="tipLabel">Tip</string>
+    <string name="totalLabel">Total</string>
+    <string name="splitLabel">Split Bill?</string>
+    <string name="personLabel">Per Person</string>
+
+    <string-array name="splitValues">
+        <item>No</item>
+        <item>2 Ways</item>
+        <item>3 Ways</item>
+        <item>4 Ways</item>
+    </string-array>
+
+    <!--unitFragment Strings-->
+    <string name="fromString">From:</string>
+    <string name="toString">To:</string>
+    <string name="centimetersText">centimeters</string>
+    <string name="metersText">meters</string>
+    <string name="feetText">feet</string>
+    <string name="milesText">miles</string>
+    <string name="kilometersText">kilometers</string>
+    <string name="convertText">Convert</string>
+    <string name="resultText">Result:</string>
+
+    <!--moneyFragment Strings-->
+
+    <string-array name="moneyValues">
+        <item>USD</item>
+        <item>Yuan</item>
+        <item>Euro</item>
+    </string-array>
+
+</resources>

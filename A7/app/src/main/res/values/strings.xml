@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">A7</string>
+    <string name="action_settings">Settings</string>
+    <string name="order_display">Order fresh brewed coffee</string>
+    <string name="size_display">Size</string>
+    <string name="small_title">Small</string>
+    <string name="medium_title">Medium</string>
+    <string name="large_title">Large</string>
+    <string name="brew_display">Brew</string>
+    <string name="sugar_display">Sugar</string>
+    <string name="milk_title">Milk</string>
+    <string name="instr_display">Special Instructions</string>
+    <string name="load_fav_button">Load Favorite</string>
+    <string name="save_fav_button">Save Favorite</string>
+    <string name="order_button">Order</string>
+    <string name="clear_button">Clear</string>
+
+    <string-array name="brew_type">
+        <item>Chemex</item>
+        <item>Cold Brew</item>
+        <item>French Press</item>
+        <item>Instant Mix</item>
+        <item>Single Serve</item>
+        <item>Standard Drip</item>
+        <item>Cowboy</item>
+    </string-array>
+
+    <string name="loadToast">Favorite loaded!</string>
+    <string name="saveToast">Favorite saved!</string>
+    <string name="orderErrorToast">Please choose a size and a brew</string>
+
+    <string name="brewPH">Brew</string>
+    <string name="sizePH">Size</string>
+    <string name="milkPH">Milk</string>
+    <string name="sugarPH">Sugar</string>
+    <string name="instrPH">Special Instructions:</string>
+    <string name="orderConfirm">Is this your order?</string>
+
+    <string name="confirmButton">Confirm</string>
+    <string name="cancelButton">Cancel</string>
+
+    <string name="confirmMessage">Thank you for your order!</string>
+    <string name="cancelMessage">Please feel free to make your desired changes.</string>
+
+    <string name="yesMilk">With Milk</string>
+    <string name="noMilk">With No Milk</string>
+    <string name="yesSugar">and Sugar</string>
+    <string name="noSugar">and No Sugar</string>
+
+</resources>

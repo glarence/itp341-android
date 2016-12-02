@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginEnd="16dp"
+    android:layout_marginStart="16dp" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="@string/gameTitle"
+        android:id="@+id/textView6"
+        android:textSize="34sp"
+        android:paddingBottom="18dp"
+        android:paddingTop="18dp"
+        android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:id="@+id/dogeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:id="@+id/imageButtonMocha"
+            android:src="@drawable/mocha"
+            android:scaleType="centerCrop"
+            android:cropToPadding="false"
+            android:adjustViewBounds="false"
+            android:layout_marginEnd="16dp"/>
+
+        <TextView
+            android:layout_width="185dp"
+            android:layout_height="match_parent"
+            android:text="@string/dogetitle"
+            android:id="@+id/textView"
+            android:textSize="20sp"
+            android:paddingTop="22dp"
+            android:paddingBottom="22dp"
+            android:layout_marginEnd="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/initialDogeValue"
+            android:id="@+id/textViewDogeCount"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp" />
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/treatsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:orientation="horizontal">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:text="@string/buttonAddSymbol"
+            android:id="@+id/buttonBuyTreat"
+            android:layout_marginEnd="16dp"
+            android:background="#7986CB"
+            android:paddingBottom="5dp"/>
+
+        <TextView
+            android:layout_width="185dp"
+            android:layout_height="match_parent"
+            android:text="@string/textTreats"
+            android:id="@+id/textView3"
+            android:textSize="20sp"
+            android:paddingTop="22dp"
+            android:paddingBottom="22dp"
+            android:layout_marginEnd="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/initialDogeValue"
+            android:id="@+id/textViewTreatsCount"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/humansLayout"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:orientation="horizontal">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:text="@string/buttonAddSymbol"
+            android:id="@+id/buttonBuyHuman"
+            android:layout_marginEnd="16dp"
+            android:background="#F06292"
+            android:paddingBottom="5dp"/>
+
+        <TextView
+            android:layout_width="185dp"
+            android:layout_height="match_parent"
+            android:text="@string/textHuman"
+            android:id="@+id/textView2"
+            android:textSize="20sp"
+            android:paddingTop="22dp"
+            android:paddingBottom="22dp"
+            android:layout_marginEnd="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/initialDogeValue"
+            android:id="@+id/textViewHumanCount"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/shoesLayout"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:orientation="horizontal">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:text="@string/buttonAddSymbol"
+            android:id="@+id/buttonBuyShoe"
+            android:layout_marginEnd="16dp"
+            android:background="#4DD0E1"
+            android:paddingBottom="5dp"/>
+
+        <TextView
+            android:layout_width="185dp"
+            android:layout_height="match_parent"
+            android:text="@string/textShoes"
+            android:id="@+id/textView4"
+            android:textSize="20sp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:layout_marginEnd="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/initialDogeValue"
+            android:id="@+id/textViewShoesCount"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/hydrantsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:orientation="horizontal">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:text="@string/buttonAddSymbol"
+            android:id="@+id/buttonBuyHydrant"
+            android:layout_marginEnd="16dp"
+            android:background="#90A4AE"
+            android:paddingBottom="5dp"/>
+
+        <TextView
+            android:layout_width="185dp"
+            android:layout_height="match_parent"
+            android:text="@string/textFireHydrant"
+            android:id="@+id/textView5"
+            android:textSize="20sp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:layout_marginEnd="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/initialDogeValue"
+            android:id="@+id/textViewHydrantCount"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

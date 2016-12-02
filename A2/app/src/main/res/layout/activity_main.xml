@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="itp341.zhao.glarence.a2.MainActivity">
+
+    <ImageView
+        android:layout_width="@dimen/imageWidth"
+        android:layout_height="@dimen/imageHeight"
+        android:id="@+id/americanImg"
+        android:scaleType="fitXY"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginStart="18dp"/>
+
+    <TextView
+        android:layout_width="@dimen/imageWidth"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/americanText"
+        android:text="@string/americanCuisine"
+        android:layout_below="@+id/americanImg"
+        android:layout_alignStart="@+id/americanImg"
+        android:textAlignment="center"
+        android:textSize="@dimen/textSize" />
+
+    <ImageView
+        android:layout_width="@dimen/imageWidth"
+        android:layout_height="@dimen/imageHeight"
+        android:id="@+id/chineseImg"
+        android:scaleType="fitXY"
+        android:layout_above="@+id/americanText"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="false"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginEnd="18dp"/>
+
+    <TextView
+        android:layout_width="@dimen/imageWidth"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/chineseText"
+        android:text="@string/chineseCuisine"
+        android:textAlignment="center"
+        android:layout_below="@+id/chineseImg"
+        android:layout_alignEnd="@id/chineseImg"
+        android:textSize="@dimen/textSize"/>
+
+    <ImageView
+        android:layout_width="@dimen/imageWidth"
+        android:layout_height="@dimen/imageHeight"
+        android:id="@+id/indianImg"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/americanText"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginStart="18dp"/>
+
+    <TextView
+        android:layout_width="@dimen/imageWidth"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/indianText"
+        android:text="@string/indianCuisine"
+        android:textAlignment="center"
+        android:layout_below="@+id/indianImg"
+        android:layout_alignStart="@+id/indianImg"
+        android:textSize="@dimen/textSize" />
+
+    <ImageView
+        android:layout_width="@dimen/imageWidth"
+        android:layout_height="@dimen/imageHeight"
+        android:id="@+id/italianImg"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/chineseText"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="false"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginEnd="18dp"/>
+
+    <TextView
+        android:layout_width="@dimen/imageWidth"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/italianText"
+        android:text="@string/italianCuisine"
+        android:textAlignment="center"
+        android:layout_below="@+id/italianImg"
+        android:layout_alignStart="@+id/italianImg"
+        android:textSize="@dimen/textSize" />
+
+    <ImageView
+        android:layout_width="@dimen/imageWidth"
+        android:layout_height="@dimen/imageHeight"
+        android:id="@+id/middleEastImg"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/indianText"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginStart="18dp"/>
+
+    <TextView
+        android:layout_width="@dimen/imageWidth"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/middleEastText"
+        android:text="@string/middleEastCuisine"
+        android:textAlignment="center"
+        android:layout_below="@+id/middleEastImg"
+        android:layout_alignStart="@+id/middleEastImg"
+        android:textSize="@dimen/textSize" />
+
+    <ImageView
+        android:layout_width="@dimen/imageWidth"
+        android:layout_height="@dimen/imageHeight"
+        android:id="@+id/portugueseImg"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/italianText"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="false"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginEnd="18dp"/>
+
+    <TextView
+        android:layout_width="@dimen/imageWidth"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/portugueseText"
+        android:text="@string/portugueseCuisine"
+        android:textAlignment="center"
+        android:layout_below="@+id/portugueseImg"
+        android:layout_alignEnd="@+id/portugueseImg"
+        android:textSize="@dimen/textSize"/>
+</RelativeLayout>

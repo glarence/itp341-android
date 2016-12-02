@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Battle Royale</string>
+    <string name="add_hero_button">Add Hero</string>
+    <string name="fight_button_string">Fight!</string>
+    <string name="submit_hero_button">Submit</string>
+    <string name="hero_name_hint">Hero Name</string>
+    <string name="first_power_textview">1st Power</string>
+    <string name="second_power_textview">2nd Power</string>
+    <string name="rankings_textview">Rankings</string>
+    <string name="battle_textview">Battle</string>
+    <string name="results_textview">Results</string>
+    <string name="first_hero_textview">1st Hero</string>
+    <string name="second_hero_textview">2nd Hero</string>
+</resources>
