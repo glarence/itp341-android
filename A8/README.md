@@ -14,3 +14,8 @@
 * Notes stored in singleton (via custom class) - 15 points
 * NoteViewActivity - 5 points
 * Intent passing and activity interactions - 10 points
+
+### Extra Credit
+
+* Long-press on a note will bring up a context-menu with a delete icon
+* Pressing the delete icon will remove the note from the program
