@@ -3,6 +3,8 @@ ITP 341: App Development for Phones and Tablets [Android]
 
 This repo contains all the work I did for ITP 341, an Android development class I took in Spring 2016 of my sophomore year.
 
+In order to run each assignment, clone this repo and open each project folder in Android Studio and run it in an emulator (Pixel AVD on Android Pie should work).
+
 ### Assignment 1 - Buttons and Listeners (without Persistence)
 ### Assignment 2 - Favorite Food
 ### Assignment 3 - Doge Clicker
