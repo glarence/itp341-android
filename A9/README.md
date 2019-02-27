@@ -1,6 +1,6 @@
 # Assignment 9 - Superhero Battle
 
-* Use database for persistent data
+* Use (SQLite) database for persistent data
 * Use singletons to manage database
 * Use MVC to store data and interaction with fragments
 
