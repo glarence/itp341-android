@@ -1,7 +1,7 @@
 # itp341-android
 ITP 341: App Development for Phones and Tablets [Android]
 
-This repo contains all the work I did for ITP 341, an Android development class I took in Spring 2016 of my sophomore year.
+This repo contains all the work I did for ITP 341, an Android development class I took in Spring 2016 of my sophomore year. Each individual assignment contains a README detailing the assignment including the requirements for technologies and skills used along with the basic and extra credit (if completed) rubrics.
 
 In order to run each assignment, clone this repo and open each project folder in Android Studio and run it in an emulator (Pixel AVD on Android Pie should work).
 
