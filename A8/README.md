@@ -2,7 +2,6 @@
 
 * Working with ListView
 * Working with Singletons
-* Working with Singletons
 
 ### Rubric
 
